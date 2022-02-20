@@ -1,0 +1,7 @@
+<div class="w-50 mt-5">
+  <h2 class="text-center"> Créer une nouvelle liste </h2>
+  <%= simple_form_for @list do |f| %>
+      <%= f.input :name, placeholder: "Thriller" %>
+      <%= f.submit class: "btn btn-success mt-3" %>
+    <% end  %>
+ </div>
